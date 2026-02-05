@@ -1,0 +1,7 @@
+services:
+  pmsfe:
+    image: itsunhospital/amalga-form-fe:070126
+    container_name: amalga-form-fe
+    build:
+      context: .
+      dockerfile: ./Dockerfile
